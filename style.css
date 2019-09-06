@@ -1,0 +1,87 @@
+body {
+  font-family: serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #F8F8F8;
+  padding-top: 45px;
+  padding-bottom: 142px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__top {
+  margin-bottom: 117px;
+}
+
+.top__logo {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.nav__item:last-child {
+  margin-right: 0px;
+}
+
+.phone {
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content__text {
+  flex-basis: 50%;
+}
+
+.header-content__title {
+  font-size: 58px;
+  margin-bottom: 23px;
+}
+
+.header-content__img {
+  max-width: 632px;
+}
+
+.header-content__description {
+  font-size: 17px;
+  line-height: 160%;
+  margin-bottom: 42px;
+}
+
+.btn {
+  background: #FF6C6C;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 56px;
+  border: none;
+}
+.btn--shadow {
+  box-shadow: 0px 10px 25px rgba(255, 108, 108, 0.5);
+}
