@@ -273,4 +273,47 @@ body {
   .contacts__form {
     margin-bottom: 50px;
   }
+
+  .review-card {
+    /* margin-right: 25px; */
+    margin-bottom: 25px;
+  }
+  /* .review-card:last-child {
+    margin-right: 0;
+  } */
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .top {
+    flex-direction: column;
+    min-height: 100px;
+  }
+
+  .header-content {
+    text-align: center;
+  }
+
+  .header-content__title {
+    font-size: 14px;
+  }
+  .header-content__description {
+    font-size: 14px;
+  }
+
+  .header-content__img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
+
+  .review-card {
+    margin-bottom: 25px;
+  }
 }
