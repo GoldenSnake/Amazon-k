@@ -151,6 +151,7 @@ body {
 .review-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .review-card {
@@ -235,4 +236,41 @@ body {
 .social__link {
   text-decoration: none;
   margin-left: 22px;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header-content__title {
+    font-size: 36px;
+  }
+
+  .card {
+    flex-basis: 48%;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    max-width: 760px;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+
+  .header-content__description {
+    max-width: 500px;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+
+  .contacts__form {
+    margin-bottom: 50px;
+  }
 }
